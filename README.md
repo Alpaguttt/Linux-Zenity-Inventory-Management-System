@@ -30,28 +30,31 @@ depo.csv ve kullanici.csv dosyalarını yedekler.
 log.csv dosyasındaki hata kayıtlarını gösterir.
 
 Gereksinimler
+
 Linux işletim sistemi.
+
 Zenity (GUI araçları için).
+
 
 Kullanım Kılavuzu
 
-Giriş
+1)Giriş
 
 Program açıldığında rol seçimi yapılır (Yönetici veya Kullanıcı).
 Yönetici, kullanıcı adı ve parolasını girerek yetkilere erişebilir.
 
-Ürün Yönetimi
+2)Ürün Yönetimi
 
 Ürün Ekleme: Ürün adı, kategori, miktar ve fiyat bilgilerini girin.
 Ürün Güncelleme: Mevcut bir ürünün stok veya fiyat bilgilerini değiştirin.
 Ürün Silme: Ürünü listeden seçip envanterden kaldırın.
 
-Raporlama
+3)Raporlama
 
 Stokta Azalan Ürünler: Miktarı belirli bir değerin altında olan ürünleri görüntüler.
 Stok Fazlası: Fazla miktardaki ürünleri listeler.
 
-Program Yönetimi
+4)Program Yönetimi
 
 Disk Alanı: Dosyaların toplam disk kullanımını gösterir.
 Yedekleme: Veri dosyalarını sıkıştırıp yedekler.
