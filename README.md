@@ -2,97 +2,48 @@ Video Tanıtım
 
 https://www.youtube.com/watch?v=I6xLX93nV2s
 
+Zenity ile Envanter Yönetim Sistemi
 Proje Açıklaması
+Bu proje, Zenity araçlarını kullanarak grafik arayüz ile çalışan bir Envanter Yönetim Sistemidir. Program, ürün yönetimi (ekleme, listeleme, güncelleme, silme), raporlama ve kullanıcı yönetimi gibi özellikler sunar. Kullanıcılar iki farklı rol ile giriş yapabilir:
 
-Bu proje, Zenity araçlarını kullanarak geliştirilmiş, kullanıcı dostu bir grafik arayüz sunan basit bir Envanter Yönetim Sistemidir. Proje, ürün ekleme, listeleme, güncelleme, silme, raporlama ve kullanıcı yönetimi gibi temel işlevleri sağlar.
-
-Özellikler
-
-Kullanıcı Rolleri
-
-Yönetici: Ürün ekleme, güncelleme, silme ve kullanıcı yönetimi yapabilir.
-
+Yönetici: Ürün ve kullanıcı yönetimi yapabilir.
 Kullanıcı: Sadece ürünleri görüntüleyebilir ve rapor alabilir.
-
-Veri Saklama
-
-Veriler depo.csv, kullanici.csv ve log.csv dosyalarında saklanır.
-
-Ana Menü
-
-Ürün Ekle: Yeni bir ürün ekleme.
-
-Ürün Listele: Mevcut ürünlerin listesi.
-
-Ürün Güncelle: Mevcut ürün bilgilerini güncelleme.
-
-Ürün Sil: Ürünü envanterden kaldırma.
-
-Rapor Al: Stok raporları.
-
-Stokta Azalan Ürünler.
-
-En Yüksek Stok Miktarına Sahip Ürünler.
-
-Kullanıcı Yönetimi: Kullanıcı ekleme, listeleme, güncelleme, silme.
-
+Özellikler
+Kullanıcı Rolleri ve Yetkileri:
+Yönetici, ürün ve kullanıcı yönetimi yapabilir.
+Kullanıcı, ürünleri listeleyebilir ve rapor alabilir.
+Veri Saklama ve Dosya Yönetimi:
+depo.csv: Ürün bilgileri saklanır.
+kullanici.csv: Kullanıcı adı ve parolalar tutulur.
+log.csv: Hatalı giriş denemeleri ve önemli işlemler kayıt edilir.
+Raporlama:
+Stokta Azalan Ürünler: Belirli bir eşik değerin altında kalan ürünler listelenir.
+En Yüksek Stok Miktarına Sahip Ürünler: Belirli bir eşik değerin üstündeki ürünler gösterilir.
 Program Yönetimi:
-
-Diskte Kapladığı Alanı Göster.
-
-Diske Yedek Al.
-
-Hata Kayıtlarını Görüntüle.
-
-Çıkış.
-
+Diskteki toplam dosya boyutlarını gösterir.
+depo.csv ve kullanici.csv dosyalarını yedekler.
+log.csv dosyasındaki hata kayıtlarını gösterir.
 Gereksinimler
-
 Linux işletim sistemi.
-
-Zenity (GUI diyalog kutuları için).
-
+Zenity (GUI araçları için).
 Kurulum ve Çalıştırma
-
-chmod +x inventory_management.sh komutu ile betik çalıştırılabilir hale getirin.
-
-./inventory_management.sh komutu ile programı başlatın.
-
+chmod +x inventory_management.sh komutuyla çalıştırılabilir hale getirin.
+./inventory_management.sh komutuyla programı başlatın.
 Kullanım Kılavuzu
-
 Giriş
-
-Program başlatıldığında yönetici veya kullanıcı rolü seçilir.
-
-Yönetici giriş bilgileri kullanici.csv dosyasına kaydedilmiştir.
-
+Program açıldığında rol seçimi yapılır (Yönetici veya Kullanıcı).
+Yönetici, kullanıcı adı ve parolasını girerek yetkilere erişebilir.
 Ürün Yönetimi
-
-Ürün Ekle: Ürün adı, kategori, stok miktarı ve fiyat bilgileri girilerek yeni ürün eklenir.
-
-Ürün Listele: Tüm ürünlerin listesi gösterilir.
-
-Ürün Güncelle: Seçilen ürünün stok veya fiyat bilgileri güncellenir.
-
-Ürün Sil: Belirtilen ürün envanterden kaldırılır.
-
+Ürün Ekleme: Ürün adı, kategori, miktar ve fiyat bilgilerini girin.
+Ürün Güncelleme: Mevcut bir ürünün stok veya fiyat bilgilerini değiştirin.
+Ürün Silme: Ürünü listeden seçip envanterden kaldırın.
 Raporlama
-
-Stokta Azalan Ürünler: Belirli bir eşik değerin altındaki ürünler listelenir.
-
-En Yüksek Stok Miktarına Sahip Ürünler: Belirli bir eşik değerin üzerindeki ürünler listelenir.
-
-Kullanıcı Yönetimi
-
-Yönetici, yeni kullanıcı ekleyebilir, mevcut kullanıcıları listeleyebilir, güncelleyebilir veya silebilir.
-
+Stokta Azalan Ürünler: Miktarı belirli bir değerin altında olan ürünleri görüntüler.
+Stok Fazlası: Fazla miktardaki ürünleri listeler.
 Program Yönetimi
-
-Diskte Kapladığı Alanı Göster: Depo, kullanıcı ve log dosyalarının toplam alanı gösterilir.
-
-Diske Yedek Al: depo.csv ve kullanici.csv dosyaları yedeklenir.
-
-Hata Kayıtlarını Görüntüle: log.csv içeriği görüntülenir.
+Disk Alanı: Dosyaların toplam disk kullanımını gösterir.
+Yedekleme: Veri dosyalarını sıkıştırıp yedekler.
+Hata Kayıtları: log.csv dosyasındaki tüm kayıtları görüntüler.
 
 
 
