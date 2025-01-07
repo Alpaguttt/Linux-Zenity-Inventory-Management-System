@@ -62,17 +62,25 @@ Hata Kayıtları: log.csv dosyasındaki tüm kayıtları görüntüler.
 
 
 Ekran Görüntüleri
-![Ekran görüntüsü 2025-01-07 195505](https://github.com/user-attachments/assets/aba9fa54-0a5e-4454-91ab-b4cc6dd7020b)
-
-![Ekran görüntüsü 2025-01-07 195440](https://github.com/user-attachments/assets/8d48714b-29bd-4de9-8984-85a6dcb9dc8f)
-
-![Ekran görüntüsü 2025-01-07 195309](https://github.com/user-attachments/assets/4208becc-d242-4d3a-b4c6-e4e055a12351)
-
-![Ekran görüntüsü 2025-01-07 195238](https://github.com/user-attachments/assets/15c6fb81-57c9-42e1-b995-17294848a891)
+![Ekran görüntüsü 2025-01-07 195159](https://github.com/user-attachments/assets/e3f117ce-d9bb-4879-aea3-dfcc0b32c134)
 
 ![Ekran görüntüsü 2025-01-07 195223](https://github.com/user-attachments/assets/a8ada825-1d06-4149-ba7b-2bcd2e08c019)
 
-![Ekran görüntüsü 2025-01-07 195159](https://github.com/user-attachments/assets/e3f117ce-d9bb-4879-aea3-dfcc0b32c134)
+![Ekran görüntüsü 2025-01-07 195238](https://github.com/user-attachments/assets/15c6fb81-57c9-42e1-b995-17294848a891)
+
+![Ekran görüntüsü 2025-01-07 195309](https://github.com/user-attachments/assets/4208becc-d242-4d3a-b4c6-e4e055a12351)
+
+![Ekran görüntüsü 2025-01-07 195440](https://github.com/user-attachments/assets/8d48714b-29bd-4de9-8984-85a6dcb9dc8f)
+![Ekran görüntüsü 2025-01-07 195505](https://github.com/user-attachments/assets/aba9fa54-0a5e-4454-91ab-b4cc6dd7020b)
+
+
+
+
+
+
+
+
+
 
 ![Ekran görüntüsü 2025-01-07 195521](https://github.com/user-attachments/assets/637830be-5480-43d6-b56e-0544edcdf2cb)
 
